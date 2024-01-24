@@ -23,7 +23,5 @@ Finally, we apply this $\mathbf{M}$ matrix to the input image to obtain the outp
 ![image](/VisionVerse/Unaligned-RGBT-Semantic-Segmentation/blob/main/deformation.jpg)  
 **Fig. 1** Thermal images with different degrees of deformation were obtained with different $k$. The higher the value of $k$, the stronger the affine deformation in the image.
 
-To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset, we applied the aforementioned tools to deform the thermal images in the MFNet dataset, while keeping the RGB images unaltered.
+To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset [(Baidu Netdisk)](https://pan.baidu.com/s/1GFEOYX7M8D7vP1zqHY0CYA?pwd=vm17), we applied the aforementioned tools to deform the thermal images in the MFNet dataset, while keeping the RGB images unaltered.
 
-## U-MFNet dataset: New Unaligned Benchmark
-- [Baidu Netdisk](https://pan.baidu.com/s/1GFEOYX7M8D7vP1zqHY0CYA?pwd=vm17)
