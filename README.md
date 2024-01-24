@@ -26,6 +26,12 @@ Finally, we apply this $\mathbf{M}$ matrix to the input image to obtain the outp
 To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset [(Baidu Netdisk)](https://pan.baidu.com/s/1GFEOYX7M8D7vP1zqHY0CYA?pwd=vm17), we applied the aforementioned tools to deform the thermal images in the MFNet dataset, while keeping the RGB images unaltered.
 
 ## Experimental Results
-![image](/VisionVerse/Unaligned-RGBT-Semantic-Segmentation/blob/main/sota.png)  
 
-![image](/VisionVerse/Unaligned-RGBT-Semantic-Segmentation/blob/main/res_images.png)
+**TABLE I.** Quantitative comparisons (%) on the U-MFNet datasets.
+
+![image](/sota.png)  
+
+
+
+![image](/res_images.png)
+**Fig. 2** Qualitative comparisons of our method and eight SOTA methods in daytime and nighttime on the testset of U-MFNet datasets.
