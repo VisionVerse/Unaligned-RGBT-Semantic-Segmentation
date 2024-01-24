@@ -27,7 +27,7 @@ To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset [(Baidu N
 
 ## Experimental Results
 - Ours Method: [Baidu Netdisk](https://pan.baidu.com/s/1AtrWOgUVmXzoNkWi54nEeg?pwd=1u4b)
-- Other SOTA Methods: [Baidu Netdisk](链接：https://pan.baidu.com/s/1Yfvvp4dXLY4DY2delPb4UA?pwd=1zgu)
+- Other SOTA Methods: [Baidu Netdisk](https://pan.baidu.com/s/1Yfvvp4dXLY4DY2delPb4UA?pwd=1zgu)
 
 **TABLE I.** Quantitative comparisons (%) on the U-MFNet datasets.
 
