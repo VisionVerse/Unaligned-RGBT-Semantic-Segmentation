@@ -26,8 +26,6 @@ Finally, we apply this $\mathbf{M}$ matrix to the input image to obtain the outp
 To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset [(Baidu Netdisk)](https://pan.baidu.com/s/1GFEOYX7M8D7vP1zqHY0CYA?pwd=vm17), we applied the aforementioned tools to deform the thermal images in the MFNet dataset, while keeping the RGB images unaltered.
 
 ## Experimental Results on U-MFNet dataset
-- Ours Method: [Baidu Netdisk](https://pan.baidu.com/s/1AtrWOgUVmXzoNkWi54nEeg?pwd=1u4b)
-- Other SOTA Methods: [Baidu Netdisk](https://pan.baidu.com/s/1Yfvvp4dXLY4DY2delPb4UA?pwd=1zgu)
 
 **TABLE I.** Quantitative comparisons (%) on the U-MFNet datasets.
 
