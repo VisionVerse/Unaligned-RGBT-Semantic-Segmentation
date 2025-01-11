@@ -20,7 +20,7 @@ $$t_i = \mathbf{M_1} \cdot s_i + \mathbf{M_2}.$$
 Given two point sets $(\mathcal{S}, \mathcal{T})$ before and after deformation, we can use the OpenCV library function to calculate the affine transformation matrix $\mathbf{M}$.
 Finally, we apply this $\mathbf{M}$ matrix to the input image to obtain the output image after the affine transformation.
 
-![image](/Unaligned-RGBT-Semantic-Segmentation/blob/main/deformation.jpg)  
+![image](/deformation.jpg)  
 **Fig. 1** Thermal images with different degrees of deformation were obtained with different $k$. The higher the value of $k$, the stronger the affine deformation in the image.
 
 To create our new unaligned RGB-T SS benchmark, _i.e._ U-MFNet dataset [(Baidu Netdisk)](https://pan.baidu.com/s/1GFEOYX7M8D7vP1zqHY0CYA?pwd=vm17), we applied the aforementioned tools to deform the thermal images in the MFNet dataset, while keeping the RGB images unaltered.
