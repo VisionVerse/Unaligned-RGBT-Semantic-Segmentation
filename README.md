@@ -12,12 +12,12 @@ $$\mathbf{M_1}=\left[\begin{array}{ll}
 		f
 	\end{array}\right]. $$
 
-The affine transformation matrix can be formalized as $\mathbf{M} = \left[\mathbf{M_1};\mathbf{M_2} \right] \in \mathbb{R}^{2 \times 3}$.
-Specifically, we randomly select three non-collinear points $S=\lbrace s_1, s_2, s_3 \rbrace$ in the image and apply a random deformation to them to obtain the transformed points $T=\lbrace t_1, t_2, t_3 \rbrace$.
+The affine transformation matrix can be formalized as $$\mathcal{M}_{s\rightarrow t} = \left[\mathcal{M}_1;\mathcal{M}_2 \right] \in \mathbb{R}^{2 \times 3}$$.
+Specifically, we randomly select three non-collinear points $\mathcal{S}=\lbrace s_1, s_2, s_3 \rbrace$ in the image and apply a random deformation to them to obtain the transformed points $\mathcal{T}=\lbrace t_1, t_2, t_3 \rbrace$.
 As shown in Fig. 1, we set the deformation strength $k$ to adjust the affine transformation. The displacement range of each point $s_i = (x, y)^\top$ is randomly chosen from the interval $[-k, k]$. In U-MFNet datasets, $k$ is set to 20 pixels.
 Then the affine transformation process of $S \rightarrow T$ can be expressed as:  
 $$t_i = \mathbf{M_1} \cdot s_i + \mathbf{M_2}.$$ 
-Given two point sets $(S, T)$ before and after deformation, we can use the OpenCV library function to calculate the affine transformation matrix $\mathbf{M}$.
+Given two point sets $(\mathcal{S}, \mathcal{T})$ before and after deformation, we can use the OpenCV library function to calculate the affine transformation matrix $\mathbf{M}$.
 Finally, we apply this $\mathbf{M}$ matrix to the input image to obtain the output image after the affine transformation.
 
 ![image](/VisionVerse/Unaligned-RGBT-Semantic-Segmentation/blob/main/deformation.jpg)  
